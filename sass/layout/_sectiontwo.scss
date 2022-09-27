@@ -1,0 +1,26 @@
+.future-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: var(--third-phone-color);
+    border-radius: 4px;
+}
+
+.titletwo {
+    width: 270px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.paragraphtwo {
+    width: 270px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}

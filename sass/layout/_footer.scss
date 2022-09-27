@@ -1,0 +1,120 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-phone-color);
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.shryft {
+    font-style: normal;
+    justify-content: flex-start;
+}
+.posts-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    &:not(:last-child) {
+    margin-bottom: 9px;
+    }
+}
+
+.address {
+    justify-content: flex-start;
+}
+
+.footdistance {
+    margin-bottom: 9px;
+}
+
+.footerpos {
+    line-height: 1.71;
+}
+
+.adress {
+    color: var(--foth-text-color);
+}
+
+.text {
+    vertical-align: Top;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.general {
+    display: flex;
+    align-items: baseline;
+}
+
+.general-address {
+    margin-right: 70px;
+}
+
+.general-social-list {
+    display: flex;
+    gap: 10px;
+}
+
+.general-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    fill: var(--foth-text-color);
+    color: var(--accent-color);
+    border-radius: 50px;
+    transition: background-color var(--function-time);
+    &:hover {
+    background-color: var(--accent-color);
+    }
+}
+.social-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--foth-text-color);
+    text-align: left;
+}
+
+.subscribe {
+    margin-left: auto;
+}
+
+.subscribe-title {
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--foth-text-color);
+}
+
+.subscribe-tap {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.subscribe-input {
+    width: 358px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-right: 12px;
+    color: var(--foth-text-color);
+    background-color: #2f303a;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    outline: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.send-icon {
+    margin-left: 10px;
+    fill: var(--accent-phone-color);
+}
