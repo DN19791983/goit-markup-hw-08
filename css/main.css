@@ -1195,17 +1195,16 @@ body {
 
 .clients-item {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  margin: 0;
-  gap: 30px;
+  margin-top: 50px;
 }
-@media screen and (min-width: 768px) {
-  .clients-item .clients-item {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .clients-item {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    gap: 30px;
   }
 }
 
