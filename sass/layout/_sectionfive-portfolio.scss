@@ -1,4 +1,4 @@
-.sectionfive__container-sectionfive {
+/*.sectionfive__container-sectionfive {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -6,6 +6,58 @@
     gap: 8px;
     margin-bottom: 50px;
     justify-content: center;
+}*/
+.sectionfive__container-sectionfive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 40px;
+    row-gap: 15px;
+    column-gap: 8px;
+
+    @media screen and (min-width: 768px) {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+    }
+}
+.sectionfive-menu {
+    @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+}
+.card-set {
+    width: 100%;
+    margin-bottom: 30px;
+    
+     @media screen and (min-width: 768px) {
+            width: calc((100% - 30px) / 2);
+            margin-bottom: 0;
+        }
+    
+    @media screen and (min-width: 1200px) {
+            width: calc((100% - 60px) / 3);
+        }
+    
+        border-left: 1px solid #eeeeee;
+        border-right: 1px solid #eeeeee;
+        border-bottom: 1px solid #eeeeee;
+    
+        transition: box-shadow var(--main-transition);
+    
+        &:hover {
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+                1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+    
+        &:hover .card-set__hidden-text {
+            transform: translateY(0%);
+        }
 }
 .portfolio-overlay {
     position: relative;
@@ -29,6 +81,18 @@
     .shadow:focus & {
     transform: translateY(0%);
         }
+@media screen and (min-width: 480px) {
+                    padding: 77px 24px;
+                    font-size: 18px;
+                }
+
+@media screen and (min-width: 768px) {
+                    padding: 49px 24px 77px;
+                }
+        
+@media screen and (min-width: 1200px) {
+                    padding: 63px 24px;
+                }
 }
 .shadow {
     display: block;

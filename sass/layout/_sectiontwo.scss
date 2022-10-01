@@ -3,24 +3,42 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    width: 270px;
+    width: 100%;
     height: 120px;
     background-color: var(--third-phone-color);
     border-radius: 4px;
-}
+    }
 
 .titletwo {
-    width: 270px;
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    text-align: center;
     color: var(--primary-text-color);
-}
+
+    @media screen and (min-width: 768px) {
+    text-align: left;}
+    }
 
 .paragraphtwo {
     width: 270px;
     line-height: 1.71;
     color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 767px) {
+    .future-icon {
+    width: 480px;
+    }
+    .paragraphtwo {
+    width: 480px;
+    text-align: left;
+    }
+    .titletwo {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    }
 }

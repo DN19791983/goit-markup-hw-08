@@ -82,8 +82,16 @@
     align-items: center;
     justify-content: center;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
+
+    @media screen and (min-width: 480px) {
+            font-size: 12px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+        }
     color: var(--secondary-text-color);
 }
 
@@ -114,7 +122,7 @@
 .checkbox-policy {
     color: var(--accent-color);
     text-decoration: revert;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--accent-color);
@@ -124,4 +132,11 @@
     outline: none;
     text-decoration: none;
     }
+        @media screen and (min-width: 480px) {
+            font-size: 12px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+        }
 }
