@@ -27,7 +27,6 @@
  .mobile-menu.is-open {
      opacity: 1;
      visibility: visible;
-     pointer-events: auto;
  }
 
  .mobile-menu__container {
@@ -135,3 +134,4 @@
      letter-spacing: 0.02em;
      color: var(--accent-color);
  }
+ 
