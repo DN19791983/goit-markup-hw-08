@@ -23,14 +23,16 @@
 }
 .card-photo {
     @media screen and (max-width: 767px){
-    width: 450px;
+    width: 100%;
     }
     @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 354px;
     }
     @media screen and (min-width: 1200px) {
     display: block;
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+    width: 270px;
+}
 }
 
 .sectionfour-list {
@@ -67,7 +69,6 @@
     display: flex;
     justify-content: center;
     column-gap: 10px;
-    margin-bottom: 30px;
 }
 
 .social-link {
@@ -94,7 +95,7 @@
     margin-top: 50px;
     
 
-    @media screen and (min-width: 480px) and (max-width: 1199px) {
+    @media screen and (min-width: 320px) and (max-width: 1199px) {
         display: flex;
         flex-wrap: wrap;
         align-items: center;

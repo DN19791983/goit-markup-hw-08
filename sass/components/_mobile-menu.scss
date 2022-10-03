@@ -2,24 +2,27 @@
      display: flex;
      flex-direction: column;
      height: 100%;
-     width: 100%;
      padding-top: 48px;
+     padding-bottom: 48px;
      position: fixed;
      top: 0;
      left: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
      background-color: #fff;
-     z-index: 5;
+     z-index: 100;
      overflow-y: scroll;
      opacity: 0;
      visibility: hidden;
      transition: opacity var(--function-time), visibility var(--function-time),
      display var(--function-time);
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
          width: 480px;
      }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
          display: none;
      }
  }
@@ -39,8 +42,9 @@
 
  .mobile-menu-close-btn {
      position: absolute;
-     top: 0;
+     top: 10px;
      right: 15px;
+     line-height: 0;
      width: 40px;
      height: 40px;
      border: none;
@@ -74,7 +78,7 @@
      border: none;
      background-color: transparent;
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
          display: none;
         }
  }
